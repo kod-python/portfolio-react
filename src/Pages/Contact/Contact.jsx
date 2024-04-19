@@ -88,11 +88,14 @@ koddeviper@gmail.com
 
 
 <div className="images">
+<a href="https://twitter.com/DZIDEgh" target="Blank"><img src={x} alt="img" className="x" /></a>
 
-<img src={x} alt="img" className="x" />
-<img src={insta} alt="img" />
-<img src={link} alt="img"  height="50" className="link"/>
-<img src={git} alt="img" className="git" />
+<a href="https://www.instagram.com/dzidegh" target="Blank"><img src={insta} alt="img" /></a>
+
+<a href="https://www.linkedin.com/in/stanleykod" target="Blank"><img src={link} alt="img"  height="50" className="link"/></a>
+
+<a href="https://github.com/kod-python" target="Blank"><img src={git} alt="img" className="git" /></a>
+
 
 </div>
 
