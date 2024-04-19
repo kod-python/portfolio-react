@@ -45,6 +45,7 @@
     border-radius: 10px;
     background-color: black;
     box-shadow: 0px 0px 6px  crimson;
+    color: white;
     
 
 }
@@ -68,6 +69,7 @@
     border-radius: 10px;
     background-color: black;
     box-shadow: 0px 0px 10px crimson;
+    color: white;
 }
 
 .contact form button{
