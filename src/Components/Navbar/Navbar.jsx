@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 const Nav = () =>{
     const [currentTime, setCurrentTime] = useState(getCurrentTime());
     
@@ -70,6 +71,7 @@ const Nav = () =>{
 </li>
 
         <i className="fa-solid fa-home"></i>
+     
 
         </div>
 
@@ -83,6 +85,7 @@ const Nav = () =>{
 </li>
 
         <i className="fa-solid fa-user"></i>
+      
 
         </div>
        
