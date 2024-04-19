@@ -1,0 +1,201 @@
+.page-desc .love{
+    width: 15px;
+    
+}
+
+
+
+.home{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-family: Arial, sans-serif;
+    overflow: hidden;
+    margin-top: 140px;
+
+}
+
+
+
+
+.home .nav-icons .port{
+    display: flex;
+    align-items: center;
+}
+
+
+.home .home-desc{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.home .page-desc button{
+margin-top: 20px;
+transition: 1s ;
+}
+
+.home .page-desc button:hover{
+   background-color: crimson;
+    }
+
+
+.home .page-desc h2{
+    font-size: 4rem;
+    color: white;
+    
+}
+
+/* Animation */
+/* .typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  } */
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 10em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+/* ends here */
+
+/* Animations second */
+
+
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange }
+}
+
+
+
+
+.home .page-desc p{
+    font-size: 1.5rem;
+    color: white;
+
+    margin-top: 20px;
+    /* animation: 
+       typing 3.5s steps(30, end),
+         blink-caret .5s step-end infinite; */
+}
+
+.home .page-desc .name{
+    box-shadow: 0px 0px 40px 14px crimson;
+    background-color: rgb(187, 100, 118);
+    border-radius: 10px;
+    opacity: 0.8;
+  
+    
+    
+}
+
+
+.home .fa-solid:hover{
+    color: white;
+}
+
+
+
+.home .fa-solid{
+   
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.4rem;
+   background-color: rgb(223, 203, 203);
+    color: grey;
+    transition: 1s  ease ;
+    transition-property: color li;
+    
+  
+
+}
+
+
+.home .nav-icons .fa-home{
+    margin-left: 55px;
+    background-color: crimson;
+    color: white;
+}
+
+
+
+.home .nav-icons .fa-envelope{
+    margin-left: 18px;
+}
+
+
+.home .nav-icons .fa-toolbox{
+    margin-left: 42px;
+}
+
+
+.home .nav-icons .fa-user{
+    margin-left: 60px;
+}
+
+
+
+
+.home .page-desc .button{
+    padding-left: 120px;
+   
+    
+   
+}
+
+.home .page-desc button{
+ 
+    border: 1px solid crimson;
+    
+    border-radius: 30px;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 220px;
+    height: 64px;
+    padding: 10px;
+}
+
+
+.home-nav nav ul{
+
+    list-style-type: none;
+    
+    
+}
+
+
+.home-nav .nav-icons{
+    display: flex;
+}
+
+.home .page-desc .fa-download{
+
+    font-size: 1.2rem;
+    margin-left: -58px;
+    background-color: crimson;
+    color: white;
+  
+    
+}
+
+.home .robot{
+    width: 400px;
+}
+
+
+
