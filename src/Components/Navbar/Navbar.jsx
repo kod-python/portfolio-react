@@ -70,7 +70,7 @@ const Nav = () =>{
     <Link to="/">Home</Link>
 </li>
 
-        <i className="fa-solid fa-home"></i>
+       <a href="/"><i className="fa-solid fa-home"></i></a> 
      
 
         </div>
@@ -84,7 +84,7 @@ const Nav = () =>{
     <Link to="/About">About</Link>
 </li>
 
-        <i className="fa-solid fa-user"></i>
+        <a href="/About"><i className="fa-solid fa-user"></i></a>
       
 
         </div>
@@ -98,7 +98,7 @@ const Nav = () =>{
     <Link to="/Portfolio">Portfolio</Link>
 </li>
 
-        <i className="fa-solid fa-toolbox"></i>
+       <a href="/Portfolio"><i className="fa-solid fa-toolbox"></i></a> 
 
        </div>
        
@@ -110,7 +110,7 @@ const Nav = () =>{
     
     <Link to="/Contact">Contact</Link>
     </li>    
-        <i className="fa-solid fa-envelope-open"></i>
+       <a href="/Contact"><i className="fa-solid fa-envelope-open"></i></a> 
        </div>
        
        

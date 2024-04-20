@@ -111,3 +111,206 @@ color: white;
 
 
 /* Nav ends here */
+
+
+
+
+
+/* media query  */
+
+
+@media (min-width:600px) and (max-width:728px){
+
+
+
+
+  .head-nav{
+    display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+  }
+  
+  .head-nav .fa-time{
+      display: flex;
+      align-items: center;
+     /* justify-content: space-between; */
+     /* margin-top: 30px; */
+     position:fixed;
+     gap: 400px;
+     z-index: 1;
+   
+     ;
+       
+    
+  
+  
+     
+  }
+  
+  
+  
+  .home-nav a{
+    color: rgb(118, 23, 207);
+    
+  }
+  
+  .head-nav a:hover{
+    color: white;
+    text-decoration: underline;
+    
+  }
+  
+  /* Nav starts here */
+  
+  .home-nav nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.4rem;
+  
+  
+  }
+
+
+  .home-nav nav ul li{
+    display: none;
+  }
+  
+  .home-nav .nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  .home-nav .fa-home,
+   .home-nav .fa-user,
+   .home-nav .fa-toolbox,
+   .home-nav .fa-envelope-open
+  {
+  
+   
+    padding: 5px;
+    transition: 1s;
+    font-size: 1rem;
+    color: grey;
+  }
+  
+  .home-nav .fa-home{
+    
+    /* color: white; */
+  }
+  
+  
+  
+  .home-nav .fa-solid:hover{
+  color: white;
+  }
+  
+  
+  /* Nav ends here */
+
+
+
+}
+
+
+
+
+
+@media (min-width:400px) and (max-width:728px){
+
+
+
+
+  .head-nav{
+    display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+  }
+  
+  .head-nav .fa-time{
+      display: flex;
+      align-items: center;
+     /* justify-content: space-between; */
+     /* margin-top: 30px; */
+     position:fixed;
+     gap: 400px;
+     z-index: 1;
+   
+     ;
+       
+    
+  
+  
+     
+  }
+  
+  
+  
+  .home-nav a{
+    color: rgb(118, 23, 207);
+    
+  }
+  
+  .head-nav a:hover{
+    color: white;
+    text-decoration: underline;
+    
+  }
+  
+  /* Nav starts here */
+  
+  .home-nav nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.4rem;
+  
+  
+  }
+
+
+  .home-nav nav ul li{
+    display: none;
+  }
+  
+  .home-nav .nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  .home-nav .fa-home,
+   .home-nav .fa-user,
+   .home-nav .fa-toolbox,
+   .home-nav .fa-envelope-open
+  {
+  
+   
+    padding: 5px;
+    transition: 1s;
+    font-size: 1rem;
+    color: grey;
+  }
+  
+  .home-nav .fa-home{
+    
+    /* color: white; */
+  }
+  
+  
+  
+  .home-nav .fa-solid:hover{
+  color: white;
+  }
+  
+  
+  /* Nav ends here */
+
+
+
+}

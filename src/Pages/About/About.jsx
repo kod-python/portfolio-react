@@ -41,24 +41,44 @@ const About = () =>{
 <h2>Front-end tools</h2>
 
 <div className="image">
+
 <img src={html} alt="" className="img-resp" />
 <img src={css} alt=""  className="img-resp" />
+
+
+</div>
+
+
+<div className="image">
+
 <img src={java} alt="" className="img-resp" />
 <img src={react} alt="" className="img-resp" />
 
 </div>
+
+
+
 </div>
 
 
 <div className="tools">
 <h2>Tools & Methods</h2>
+
 <div className="image">
 <img src={git} alt="" />
 <img src={github} alt="" />
+
+
+</div>
+
+<div className="image">
+
+
 <img src={vecel} alt=""  className="vecel"/>
 <img src={chrome} alt="" />
 
 </div>
+
 </div>
 
 

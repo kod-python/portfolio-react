@@ -198,4 +198,410 @@ from, to { border-color: transparent }
 }
 
 
+/* Desktop media query */
 
+
+@media (max-width:768px){
+
+
+    
+    
+    .home .nav-icons .fa-home{
+        margin-left: 50px;
+        background-color: crimson;
+        color: white;
+    }
+    
+
+
+
+
+
+    .home .nav-icons .port{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .home .home-desc{
+        display: flex;
+        align-items: center;
+        gap: 120px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    
+    .home .page-desc button{
+    margin-top: 20px;
+    transition: 1s ;
+    }
+    
+    .home .page-desc button:hover{
+       background-color: crimson;
+        }
+    
+    
+    .home .page-desc h2{
+        font-size: 2rem;
+        color: white;
+        
+    }
+
+
+
+
+    .home .page-desc p{
+       font-size: 1.2rem;
+       color: white;
+   
+       margin-top: 20px;
+       /* animation: 
+          typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite; */
+   }
+   
+
+   
+
+   
+   
+   .home .fa-solid{
+      
+       border-radius: 40px;
+       padding: 20px;
+       margin: 10px;
+       font-size: 1.4rem;
+      background-color: rgb(223, 203, 203);
+       color: grey;
+       transition: 1s  ease ;
+       transition-property: color li;
+       
+     
+   
+   }
+   
+   
+
+   
+   
+   
+   .home .page-desc .button{
+       padding-left: 1px;
+      
+       
+      
+   }
+   
+   .home .page-desc button{
+    
+       border: 1px solid crimson;
+       
+       border-radius: 30px;
+       background-color: rgb(12, 11, 11);
+       color: white;
+       font-size: 1.2rem;
+       text-align: left;
+       width: 220px;
+       height: 58px;
+       padding: 10px;
+   }
+   
+   
+
+   
+   .home .page-desc .fa-download{
+   
+       font-size: 0.9rem;
+       margin-left: -56px;
+       background-color: crimson;
+       color: white;
+     
+       
+   }
+   
+   .home .robot{
+       width: 300px;
+   }
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Desktop media query */
+
+
+@media (max-width:790px){
+
+
+     
+    .home .nav-icons .fa-home{
+        margin-left: 50px;
+        background-color: crimson;
+        color: white;
+    }
+    
+
+
+
+
+
+    .home .nav-icons .port{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .home .home-desc{
+        display: flex;
+        align-items: center;
+        gap: 120px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    
+    .home .page-desc button{
+    margin-top: 20px;
+    transition: 1s ;
+    }
+    
+    .home .page-desc button:hover{
+       background-color: crimson;
+        }
+    
+    
+    .home .page-desc h2{
+        font-size: 2rem;
+        color: white;
+        
+    }
+
+
+
+
+    .home .page-desc p{
+       font-size: 1.2rem;
+       color: white;
+   
+       margin-top: 20px;
+       /* animation: 
+          typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite; */
+   }
+   
+
+   
+
+   
+   
+   .home .fa-solid{
+      
+       border-radius: 40px;
+       padding: 20px;
+       margin: 10px;
+       font-size: 1.4rem;
+      background-color: rgb(223, 203, 203);
+       color: grey;
+       transition: 1s  ease ;
+       transition-property: color li;
+       
+     
+   
+   }
+   
+   
+
+   
+   
+   
+   .home .page-desc .button{
+       padding-left: 1px;
+      
+       
+      
+   }
+   
+   .home .page-desc button{
+    
+       border: 1px solid crimson;
+       
+       border-radius: 30px;
+       background-color: rgb(12, 11, 11);
+       color: white;
+       font-size: 1.2rem;
+       text-align: left;
+       width: 220px;
+       height: 58px;
+       padding: 10px;
+   }
+   
+   
+
+   
+   .home .page-desc .fa-download{
+   
+       font-size: 0.9rem;
+       margin-left: -56px;
+       background-color: crimson;
+       color: white;
+     
+       
+   }
+   
+   .home .robot{
+       width: 300px;
+   }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet media query */
+
+@media (max-width: 600px){
+
+
+
+ 
+     
+     
+     
+     .home .nav-icons .port{
+         display: flex;
+         align-items: center;
+     }
+     
+     
+     .home .home-desc{
+         display: flex;
+         align-items: center;
+         gap: 120px;
+         text-align: center;
+         padding-left: 40px;
+     }
+     
+     .home .page-desc button{
+     margin-top: 20px;
+     transition: 1s ;
+     }
+     
+     .home .page-desc button:hover{
+        background-color: crimson;
+         }
+     
+     
+     .home .page-desc h2{
+         font-size: 2rem;
+         color: white;
+         
+     }
+
+
+
+
+     .home .page-desc p{
+        font-size: 1.2rem;
+        color: white;
+    
+        margin-top: 20px;
+        /* animation: 
+           typing 3.5s steps(30, end),
+             blink-caret .5s step-end infinite; */
+    }
+    
+
+    
+
+    
+    
+    .home .fa-solid{
+       
+        border-radius: 40px;
+        padding: 20px;
+        margin: 10px;
+        font-size: 1.4rem;
+       background-color: rgb(223, 203, 203);
+        color: grey;
+        transition: 1s  ease ;
+        transition-property: color li;
+        
+      
+    
+    }
+    
+    
+
+    
+    
+    
+    .home .page-desc .button{
+        padding-left: 1px;
+       
+        
+       
+    }
+    
+    .home .page-desc button{
+     
+        border: 1px solid crimson;
+        
+        border-radius: 30px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        font-size: 1rem;
+        text-align: left;
+        width: 200px;
+        height: 54px;
+        padding: 10px;
+    }
+    
+    
+
+    
+    .home .page-desc .fa-download{
+    
+        font-size: 0.8rem;
+        margin-left: -54px;
+        background-color: crimson;
+        color: white;
+      
+        
+    }
+    
+    .home .robot{
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
+}
+    
